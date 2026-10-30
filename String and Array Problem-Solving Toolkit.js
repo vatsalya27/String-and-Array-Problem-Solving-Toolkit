@@ -1,6 +1,4 @@
-// ==========================================
 // Assignment 2: String and Array Problem-Solving Toolkit
-// ==========================================
 
 // 1. Reverse a string without using reverse()
 // Approach:
@@ -173,12 +171,13 @@ function moveZeros(arr) {
   return arr;
 }
 
-// ==========================================
-// Sample Tests
-// ==========================================
-console.log("1. reverseString:", reverseString("hello")); // "olleh"
-console.log("2. isPalindrome:", isPalindrome("madam")); // true
-console.log("3. countVowelsAndConsonants:", countVowelsAndConsonants("hello world")); // { vowels: 3, consonants: 7 }
-console.log("4. secondLargest:", secondLargest([10, 5, 20, 8, 20])); // 10
-console.log("5. removeDuplicates:", removeDuplicates([1, 2, 2, 3, 1])); // [1, 2, 3]
-console.log("6. sumOfEvenNumbers:", sumOfEvenNumbers([1, 2, 3, 4, 5, 6])); // 12
+
+console.log("1. reverseString:", reverseString("hello"));
+console.log("2. isPalindrome:", isPalindrome("madam")); 
+console.log("3. countVowelsAndConsonants:", countVowelsAndConsonants("hello world")); 
+console.log("4. secondLargest:", secondLargest([10, 5, 20, 8, 20])); 
+console.log("5. removeDuplicates:", removeDuplicates([1, 2, 2, 3, 1])); 
+console.log("6. sumOfEvenNumbers:", sumOfEvenNumbers([1, 2, 3, 4, 5, 6])); 
+console.log("7. findFrequency:",findFrequency([1,2,3,4,2,5,2],2));
+console.log("8. isAnagram:", areAnagrams("listen","silent"));
+console.log("9. moveZeros:", moveZeros([0,1,3,0,5,0,4,0,6]));
